@@ -182,7 +182,7 @@ const Training = () => {
     
     // Clean and construct URL
     const cleanUrl = videoUrl.replace(/^undefined/, '');
-    const baseUrl = process.env.REACT_APP_API_URL || 'https://vms-be-bwb0.onrender.com';
+    const baseUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
     return `${baseUrl}${cleanUrl}`;
   };
 
